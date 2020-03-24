@@ -2,6 +2,7 @@ import koneksi.Database;
 import model.Dosen;
 import model.Mahasiswa;
 import model.MataKuliah;
+import model.Alamat;
 
 public class Main{
     public static void main(String [] args){
@@ -10,5 +11,6 @@ public class Main{
         Dosen.tampilanInfo();
         Mahasiswa.tampilanInfo();
         MataKuliah.tampilanInfo();
+        Alamat.tampilanInfo();
     }
 }
